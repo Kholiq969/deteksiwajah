@@ -11,7 +11,7 @@ if not os.path.exists(dataset_path):
     raise FileNotFoundError("❌ Folder 'dataset' tidak ditemukan! Pastikan struktur folder sudah benar.")
 
 # ===========================
-# 2️⃣ Data augmentation & pembagian train/val
+# 2️⃣ Data augmentation & pembagian train/vaL
 # ===========================
 datagen = ImageDataGenerator(
     rescale=1./255,
